@@ -175,6 +175,7 @@ dt {
     #page-dropdown
     {
       float: right;
+      margin-top: 7px;
       ul {
         list-style: none;
         position: static;
@@ -184,11 +185,10 @@ dt {
           -webkit-padding-start: 0px;
           text-align: center;
           line-height: 0px;
-          background-color: rgba(0,0,0,0.4);
         }
 
         &:hover li {
-          display: block;
+          display: table-caption;
         }
 
         span {

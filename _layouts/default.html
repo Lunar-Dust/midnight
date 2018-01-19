@@ -23,7 +23,7 @@
         <div id="page-dropdown">
           <ul class="pagelist"><span>Pages</span>
           {% for post in site.posts %}  
-            <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>    
+            <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>    
           {% endfor %}
           </ul>
         </div>
